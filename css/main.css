@@ -11,9 +11,6 @@ html, body {
   padding-bottom: 180px; /* must be same height as the footer */
 }
 
-div.image {
-   content:url(construction.jpg);
-}​
 
 #footer {
   position: relative;
