@@ -23,6 +23,6 @@ li a:hover:not(.active) {
 }
 
 li a.active{
-    background-color: blue;
+    background-color: Aqua;
     color: black;
 }
