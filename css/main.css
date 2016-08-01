@@ -3,6 +3,6 @@ html, body{
  weight: 100%;
  margin: 0px auto;
  
- outline-color:green;
- outline-style:solid;
+ border-color:green;
+ border-style:solid;
 }
