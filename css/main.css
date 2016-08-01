@@ -3,7 +3,7 @@ html, body{
  weight: 100%;
  margin: 0px auto;
  
- border-color:green;
- border-style:solid;
- border-width: 30px;
+ border-top-color:green;
+ border-top-style:solid;
+ border-top-width: 30px;
 }
