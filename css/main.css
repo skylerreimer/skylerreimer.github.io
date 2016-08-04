@@ -6,9 +6,9 @@ head {
 
 p {
     margin: auto;
-    border-left: 25px hidden red;
-    border-right: 25px hidden red;
-    border-bottom: 25px hidden red;
+    border-left: 25px solid white;
+    border-right: 25px solid white;
+    border-bottom: 25px solid white;
 }
 
 
