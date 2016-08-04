@@ -4,6 +4,11 @@ head {
 
 }
 
+p {
+    margin: auto;
+    border-left: 6px solid red;
+    border-right: 6px solid red;
+}
 
 
 ul {
