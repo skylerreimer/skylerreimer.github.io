@@ -10,6 +10,8 @@ p {
 h1 {
     padding-top: 25px ;
     margin: auto;
+    border-left: 100px solid white;
+    border-right: 100px solid white;
     color: red;
 
 
