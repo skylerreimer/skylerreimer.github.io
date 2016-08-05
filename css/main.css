@@ -7,13 +7,14 @@ p {
     border-bottom: 25px solid white;
 }
 
-p.h1 {
+h1 {
     padding-top: 25px ;
     margin: auto;
     color: red;
 
 
 }
+
 
 ul {
     list-style-type: none;
