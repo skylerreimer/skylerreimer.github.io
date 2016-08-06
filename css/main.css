@@ -60,7 +60,7 @@ li a:hover {
     background-color: white;
 }
 
-@media screen and (max-width: 1920px){
+/*@media screen and (max-width: 1920px){
     ul.topnav li.right,
     ul.topnav li {float: none;}
-}
+} */
