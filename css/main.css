@@ -10,7 +10,7 @@ body {
 }
 #header {
  background:green;
- padding:10px;
+ padding:0;
 }
 #content {
  padding-bottom:100px; /* Height of the footer element */
@@ -82,7 +82,7 @@ ul {
     
 	margin: 0;
     
-	padding: 10px;
+	padding: 0;
     
 	overflow: hidden;
     
