@@ -22,6 +22,108 @@ body {
  bottom:0;
  left:0;
 }
+p {
+    
+       margin: auto;
+    
+       border-left: 100px solid white;
+    
+       border-right: 100px solid white;
+    
+       border-bottom: 25px solid white;
+    
+       font-size 1em;
+
+}
+
+h1 {
+    
+	padding-top: 25px ;
+    
+	margin: auto;
+    
+	border-left: 100px solid white;
+    
+	border-right: 100px solid white;
+    
+	color: red;
+    
+	font-size: 2.2em;
+
+
+
+}
+
+h2 {
+    
+	padding-top: 25px ;
+    
+	margin: auto;
+    
+	border-left: 100px solid white;
+    
+	border-right: 100px solid white;
+    
+	color: black;
+    
+	font-size: 1.5em;
+
+
+
+}
+
+ul {
+    
+	list-style-type: none;
+    
+	margin: 0;
+    
+	padding: 0;
+    
+	overflow: hidden;
+    
+	background-color: green;
+
+}
+
+li {
+    
+	float: right;
+
+}
+
+
+
+li a {
+    
+	display: block;
+    
+	color: black;
+    
+	text-align: center;
+    
+	padding: 14px 16px;
+    
+	text-decoration: none;
+
+}
+
+
+li a.active{
+    
+	background-color: Aqua;
+    
+	color: black;
+
+}
+
+
+
+li a:hover {
+    
+	background-color: white;
+
+}
 
 
 
