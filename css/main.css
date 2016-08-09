@@ -20,14 +20,17 @@ html,body {
  border-style: none;
  height:50px;
  line-height: 50px;
+ position:absolute;
+ left:0;
 }
 #content {
  padding-bottom:50px; /* Height of the footer element */
+ padding-top:50px;
  border-left: 100px solid white;
  border-right: 100px solid white;
  background:AntiqueWhite;
  position:absolute;
- top:7%;
+
  bottom:0;
  
 
