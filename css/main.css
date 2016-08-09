@@ -14,12 +14,12 @@ html,body {
 #header {
  background:green;
  padding:0;
+ border-style: none;
 }
 #content {
  padding-bottom:50px; /* Height of the footer element */
  background:AntiqueWhite;
- border-left: 100px solid white;
- border-right: 100px solid white;
+ 
 }
 #footer {
  background:#ffab62;
@@ -31,6 +31,7 @@ html,body {
  text-align: center;
  vertical-align: middle;
  line-height: 50px; /* Height of the footer element */
+ border-style: none;
 }
 p {
     
