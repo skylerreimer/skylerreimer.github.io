@@ -87,7 +87,7 @@
      
  	overflow: hidden;
      
- 	background-color: green;
+ 	background-color: black;
  
  }
  
@@ -129,3 +129,21 @@
  	background-color: white;
  
  }
+ 
+h5.sidebar-title {
+border-bottom: 0.1em solid #eeeeee;
+margin-top: 1em;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.side-nav li a { color: #222}
+.side-nav { padding: 0.5em 0; }
+
+
+a{
+	color: #BB0000
+}
+a:hover {
+	color: #BB0000
+}
