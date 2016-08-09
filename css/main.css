@@ -18,6 +18,7 @@ html,body {
  background:green;
  padding:0;
  border-style: none;
+ height:50px;
  line-height: 50px;
 }
 #content {
