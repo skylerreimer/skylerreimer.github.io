@@ -9,15 +9,16 @@
   position:relative;
  }
  #header {
-  padding-left: 25%;
+             border-left: 100px solid black;
      
-  padding-right: 25%;
+        border-right: 100px solid black;
   padding:0;
  }
  #content {
   padding-bottom:50px; /* Height of the footer element */
-  border-left: 25% solid white;
-  border-right: 25% solid white;
+  padding-left: 25%;
+     
+  padding-right: 25%;
  }
  #footer {
   background:#ffab62;
