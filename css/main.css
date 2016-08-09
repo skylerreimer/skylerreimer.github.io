@@ -86,6 +86,8 @@
  	padding: 0;
      
  	overflow: hidden;
+ 	
+ 	text-align: center;
      
  	background-color: black;
  
@@ -94,6 +96,9 @@
  li {
      
  	float: right;
+ 	line-height: 40px;
+  height: 40px;
+
  
  }
  
