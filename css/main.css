@@ -1,9 +1,11 @@
-html{height:100%}
-body {
+
+html,body {
  margin:0;
  padding:0;
  height:100%;
  background: AntiqueWhite;
+ border-left: 100px solid white;
+ border-right: 100px solid white;
 }
 #wrapper {
  min-height:100%;
