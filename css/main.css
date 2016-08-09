@@ -16,6 +16,8 @@
  }
  #content {
   padding-bottom:50px; /* Height of the footer element */
+  border-left: 25% solid white;
+  border-right: 25% solid white;
  }
  #footer {
   background:#ffab62;
@@ -33,9 +35,7 @@
       
         margin: auto;
      
-        border-left: 100px solid white;
-     
-        border-right: 100px solid white;
+
      
         border-bottom: 25px solid white;
      
