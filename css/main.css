@@ -25,7 +25,7 @@ html,body {
 }
 #content {
  padding-bottom:50px; /* Height of the footer element */
- padding-top:50px;
+ 
  border-left: 100px solid white;
  border-right: 100px solid white;
  background:AntiqueWhite;
