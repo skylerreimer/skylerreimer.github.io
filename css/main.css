@@ -143,9 +143,10 @@
  }
  
 .quicklinks{
-  position: fixed;
-  right: 0;
-  padding-right: 10%;
+  position: absolute;
+  left: 80%;
+  
+  z-index: 2;
   
 }
 th{
