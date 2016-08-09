@@ -21,7 +21,7 @@ html,body {
  height:50px;
  line-height: 50px;
  position:absolute;
- left:0;
+ 
 }
 #content {
  padding-bottom:50px; /* Height of the footer element */
