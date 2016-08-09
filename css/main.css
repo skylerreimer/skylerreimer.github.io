@@ -142,13 +142,14 @@
  
  }
  
-    #sidebar {
-    float: left;
-      border: 1px solid red;
-      width: 200px;
-    }
-    aside {
-      position: fixed;
-      top: 20px;
-      border: 1px solid red;
-    }
+.quicklinks{
+  position: fixed;
+  right: 0;
+  padding-right: 10%;
+  
+}
+th{
+   border-bottom: 1px solid black; 
+   font-weight: bold;
+   font-size: 1.2em;
+}
