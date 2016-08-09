@@ -14,6 +14,7 @@ body {
 }
 #content {
  padding-bottom:50px; /* Height of the footer element */
+ background:#F0F8FF;
 }
 #footer {
  background:#ffab62;
