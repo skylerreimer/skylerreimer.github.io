@@ -130,20 +130,13 @@
  
  }
  
-h5.sidebar-title {
-border-bottom: 0.1em solid #eeeeee;
-margin-top: 1em;
-font-weight: bold;
-text-transform: uppercase;
-}
-
-.side-nav li a { color: #222}
-.side-nav { padding: 0.5em 0; }
-
-
-a{
-	color: #BB0000
-}
-a:hover {
-	color: #BB0000
-}
+    #sidebar {
+    float: left;
+      border: 1px solid red;
+      width: 200px;
+    }
+    aside {
+      position: fixed;
+      top: 20px;
+      border: 1px solid red;
+    }
