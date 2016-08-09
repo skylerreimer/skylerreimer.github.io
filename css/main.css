@@ -9,7 +9,9 @@
   position:relative;
  }
  #header {
-  
+    border-left: 100px solid black;
+     
+    border-right: 100px solid black;
   padding:0;
  }
  #content {
@@ -81,7 +83,7 @@
    font-size: 1.5em;
    position:absolute;
    margin: auto;
-   padding: 10px 0 0 500px;
+   padding: 10px 0;
    z-index: 1;
  }
  
