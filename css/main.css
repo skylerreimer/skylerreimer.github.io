@@ -1,15 +1,17 @@
-
 html,body {
  margin:0;
  padding:0;
  height:100%;
- background: AntiqueWhite;
+ 
 
 
 }
 #wrapper {
  min-height:100%;
  position:relative;
+
+}
+#inner{
 
 }
 #header {
@@ -19,9 +21,14 @@ html,body {
 }
 #content {
  padding-bottom:50px; /* Height of the footer element */
- background:AntiqueWhite;
  border-left: 100px solid white;
  border-right: 100px solid white;
+ background:AntiqueWhite;
+ position:absolute;
+ top:7%;
+ bottom:0;
+ 
+
 
  
 }
@@ -51,16 +58,16 @@ p {
 
 h1 {
     
-	/*padding-top: 25px ;*/
+ /*padding-top: 25px ;*/
     
-	margin: auto;
+ margin: auto;
     
 
     
-	color: red;
+ color: red;
     
-	font-size: 2.2em;
-	
+ font-size: 2.2em;
+ 
 
 
 
@@ -68,15 +75,15 @@ h1 {
 
 h2 {
     
-	/*padding-top: 25px ; */
+ /*padding-top: 25px ; */
     
-	margin: auto;
+ margin: auto;
     
 
     
-	color: black;
+ color: black;
     
-	font-size: 1.5em;
+ font-size: 1.5em;
 
 
 
@@ -84,23 +91,23 @@ h2 {
 
 ul {
     
-	list-style-type: none;
+ list-style-type: none;
     
-	margin: 0;
+ margin: 0;
     
-	padding: 0;
+ padding: 0;
     
-	overflow: hidden;
+ overflow: hidden;
     
-	background-color: green;
-	
+ background-color: green;
+ 
 
 
 }
 
 li {
     
-	float: right;
+ float: right;
 
 }
 
@@ -108,24 +115,24 @@ li {
 
 li a {
     
-	display: block;
+ display: block;
     
-	color: black;
+ color: black;
     
-	text-align: center;
+ text-align: center;
     
-	padding: 14px 16px;
+ padding: 14px 16px;
     
-	text-decoration: none;
+ text-decoration: none;
 
 }
 
 
 li a.active{
     
-	background-color: Aqua;
+ background-color: Aqua;
     
-	color: black;
+ color: black;
 
 }
 
@@ -133,9 +140,6 @@ li a.active{
 
 li a:hover {
     
-	background-color: white;
+ background-color: white;
 
 }
-
-
-
