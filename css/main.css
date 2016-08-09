@@ -103,7 +103,7 @@
      
  	display: block;
      
- 	color: black;
+ 	color: white;
      
  	text-align: center;
      
@@ -116,7 +116,7 @@
  
  li a.active{
      
- 	background-color: Aqua;
+ 	background-color: grey;
      
  	color: black;
  
@@ -126,7 +126,7 @@
  
  li a:hover {
      
- 	background-color: white;
+ 	background-color: CadetBlue;
  
  }
  
