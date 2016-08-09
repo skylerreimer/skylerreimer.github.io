@@ -4,6 +4,8 @@ html,body {
  padding:0;
  height:100%;
  background: AntiqueWhite;
+ border-left: 100px solid white;
+ border-right: 100px solid white;
 
 }
 #wrapper {
@@ -18,8 +20,7 @@ html,body {
 #content {
  padding-bottom:50px; /* Height of the footer element */
  background:AntiqueWhite;
- border-left: 100px solid white;
- border-right: 100px solid white;
+
  
 }
 #footer {
