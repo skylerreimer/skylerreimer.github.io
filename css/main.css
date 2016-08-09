@@ -1,38 +1,19 @@
- html,body {
+  html{height:100%}
+ body {
   margin:0;
   padding:0;
   height:100%;
-  
- 
- 
  }
  #wrapper {
   min-height:100%;
   position:relative;
- 
- }
- #inner{
- 
  }
  #header {
-   background:green;
-   padding:0;
-   border-style: none;
- + height:50px;
-   line-height: 50px;
-  }
-  #content {
+  background:green;
+  padding:0;
+ }
+ #content {
   padding-bottom:50px; /* Height of the footer element */
-  border-left: 100px solid white;
-  border-right: 100px solid white;
-  background:AntiqueWhite;
-  position:absolute;
-  top:7%;
-  bottom:0;
-  
- 
- 
-  
  }
  #footer {
   background:#ffab62;
@@ -40,19 +21,21 @@
   height:50px;
   position:absolute;
   bottom:0;
-  left:0;
-  text-align: center;
-  vertical-align: middle;
-  line-height: 50px; /* Height of the footer element */
-  border-style: none;
- }
- p {
-     
+   left:0;
+   text-align: center;
+   vertical-align: middle;
+ - line-height: 100px;
+ + line-height: 50px; /* Height of the footer element */
+  }
+  p {
+      
         margin: auto;
      
- 
+        border-left: 100px solid white;
      
-        
+        border-right: 100px solid white;
+     
+        border-bottom: 25px solid white;
      
         font-size 1em;
  
@@ -60,16 +43,17 @@
  
  h1 {
      
-  /*padding-top: 25px ;*/
+ 	padding-top: 25px ;
      
-  margin: auto;
+ 	margin: auto;
      
- 
+ 	border-left: 100px solid white;
      
-  color: red;
+ 	border-right: 100px solid white;
      
-  font-size: 2.2em;
-  
+ 	color: red;
+     
+ 	font-size: 2.2em;
  
  
  
@@ -77,15 +61,17 @@
  
  h2 {
      
-  /*padding-top: 25px ; */
+ 	padding-top: 25px ;
      
-  margin: auto;
+ 	margin: auto;
      
- 
+ 	border-left: 100px solid white;
      
-  color: black;
+ 	border-right: 100px solid white;
      
-  font-size: 1.5em;
+ 	color: black;
+     
+ 	font-size: 1.5em;
  
  
  
@@ -93,23 +79,21 @@
  
  ul {
      
-  list-style-type: none;
+ 	list-style-type: none;
      
-  margin: 0;
+ 	margin: 0;
      
-  padding: 0;
+ 	padding: 0;
      
-  overflow: hidden;
+ 	overflow: hidden;
      
-  background-color: green;
-  
- 
+ 	background-color: green;
  
  }
  
  li {
      
-  float: right;
+ 	float: right;
  
  }
  
@@ -117,24 +101,24 @@
  
  li a {
      
-  display: block;
+ 	display: block;
      
-  color: black;
+ 	color: black;
      
-  text-align: center;
+ 	text-align: center;
      
-  padding: 14px 16px;
+ 	padding: 14px 16px;
      
-  text-decoration: none;
+ 	text-decoration: none;
  
  }
  
  
  li a.active{
      
-  background-color: Aqua;
+ 	background-color: Aqua;
      
-  color: black;
+ 	color: black;
  
  }
  
@@ -142,6 +126,6 @@
  
  li a:hover {
      
-  background-color: white;
+ 	background-color: white;
  
  }
