@@ -15,6 +15,8 @@ body {
 #content {
  padding-bottom:50px; /* Height of the footer element */
  background:AntiqueWhite;
+ border-left: 100px solid white;
+ border-right: 100px solid white;
 }
 #footer {
  background:#ffab62;
@@ -31,9 +33,7 @@ p {
     
        margin: auto;
     
-       border-left: 100px solid white;
-    
-       border-right: 100px solid white;
+
     
        
     
@@ -47,9 +47,7 @@ h1 {
     
 	margin: auto;
     
-	border-left: 100px solid white;
-    
-	border-right: 100px solid white;
+
     
 	color: red;
     
@@ -65,9 +63,7 @@ h2 {
     
 	margin: auto;
     
-	border-left: 100px solid white;
-    
-	border-right: 100px solid white;
+
     
 	color: black;
     
