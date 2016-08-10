@@ -88,7 +88,7 @@
 .quicklinks{
   position: absolute;
   left: 80%;
-  
+  top: 25%;
   z-index: 2;
   
 }
