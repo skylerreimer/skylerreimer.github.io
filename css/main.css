@@ -10,6 +10,7 @@
  }
  #header {
              border-left: 150px solid black;
+             border-bottom: 2px solid aqua;
      
         border-right: 150px solid black;
   padding:0;
