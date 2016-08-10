@@ -6,9 +6,8 @@
   font-family:"Courier New", Courier, monospace;
  }
  #wrapper {
-      width: 750px;
-      margin: 0 auto;
-      background-color: #fff;
+  min-height:100%;
+  position:relative;=
  }
  #header {
 
