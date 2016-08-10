@@ -105,7 +105,10 @@ th{
 	margin: 0 0 1em 0;
 	padding: 0;
 	background-color: #f2f2f2;
-	border-bottom: 1px solid #ccc;  }
+	border-bottom: 1px solid #ccc;  
+	list-style-type: none;
+}
+	
 #nav ul {
 	list-style: none;
 	width: 800px;
