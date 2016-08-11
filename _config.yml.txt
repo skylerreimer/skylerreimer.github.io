@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: skylerreimer.com
+exclude: ['readme.md']
