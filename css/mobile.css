@@ -60,3 +60,7 @@ h3 {
       text-align: center;
       margin: 0;
 }
+
+table, th, td {
+    display: none;
+}
