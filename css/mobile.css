@@ -47,9 +47,11 @@ ul.topnav li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 h1, h2 {
     color: DarkOrange;
 }
+
 h3 {
       font-size: 1.5em;
       padding: 1em 8px;
