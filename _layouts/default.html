@@ -3,7 +3,7 @@
    <head>
 
        <title>{{ page.title }}</title>
-       <link rel="stylesheet" type="text/css" href="/css/main.css">
+
        <script>
  var isMobile = {
      Android: function() {
@@ -26,7 +26,11 @@
      }
  };
  if(isMobile.any()) {
-    document.getElementById('stylesheet').setAttribute('href', "/css/mobile.css");
+    alert("This is a Mobile Device");
+    <link rel="stylesheet" type="text/css" href="/css/mobile.css">
+ }else{
+   alert("This is not a Mobile Device");
+   <link rel="stylesheet" type="text/css" href="/css/main.css">
  }
  </script>
 
