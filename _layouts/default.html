@@ -3,6 +3,7 @@
    <head>
 
        <title>{{ page.title }}</title>
+       <link rel="stylesheet" type="text/css" href="/css/main.css">
        <script>
  var isMobile = {
      Android: function() {
@@ -25,12 +26,12 @@
      }
  };
  if(isMobile.any()) {
-    alert("This is a Mobile Device");
+    swapStyleSheet("main.css")
  }else{
-    alert("This is not a Mobile Device");
+    swapStyleSheet("mobile.css")
  }
  </script>
-       <link rel="stylesheet" type="text/css" href="/css/main.css">
+
 
        <!-- Chrome, Firefox OS and Opera -->
        <meta name="theme-color" content="#4285f4">
