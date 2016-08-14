@@ -1,15 +1,21 @@
-html{height:100%}
-body {margin: 0;}
+html{
+  height:100%
+}
+body {
+  margin: 0;
+}
 
 ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: DeepSkyBlue;
 }
 
-ul.topnav li {float: none;}
+ul.topnav li {
+    float: none;
+}
 
 ul.topnav li a {
     display: block;
@@ -19,8 +25,6 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
-
-ul.topnav li a.active {background-color: #4CAF50;}
-
-ul.topnav li.right {float: none;}
+ul.topnav li.right {
+    float: none;
+}
