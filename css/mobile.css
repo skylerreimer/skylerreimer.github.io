@@ -25,6 +25,11 @@ ul.topnav li a {
     text-decoration: none;
 }
 
-ul.topnav li.right {
-    float: none;
+h3 {
+      font-size: 1.5em;
+      padding: 1em 8px;
+      color: white;
+      background-color: DodgerBlue ;
+      text-align: center;
+      margin: 0;
 }
