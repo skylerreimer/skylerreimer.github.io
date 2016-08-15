@@ -1,4 +1,4 @@
-<SCRIPT LANGUAGE="JavaScript">
+
   var isMobile = {
       Android: function() {
           return navigator.userAgent.match(/Android/i);
@@ -22,4 +22,3 @@
   if(isMobile.any()) {
     document.getElementById('style').setAttribute('href', '/css/mobile.css');
  }
-</SCRIPT>
