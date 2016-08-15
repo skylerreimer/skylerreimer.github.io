@@ -34,6 +34,7 @@ ul.topnav {
     padding: 0;
     overflow: hidden;
     background-color: DeepSkyBlue;
+    border-top: 1px solid white;
 }
 
 ul.topnav li {
