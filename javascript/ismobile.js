@@ -19,7 +19,5 @@ var isMobile = {
     }
 };
 if(isMobile.any()) {
-   alert("This is a Mobile Device");
-}else{
-   alert("This is not a Mobile Device");
+   document.getElementById('style').setAttribute('href', '/css/mobile.css');
 }
