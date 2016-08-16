@@ -6,6 +6,7 @@
        <link id="style" rel="stylesheet" type="text/css" href="/css/main.css">
 
       <script>
+      //look for Mobile Device browsers
       var isMobile = {
           Android: function() {
               return navigator.userAgent.match(/Android/i);
@@ -26,11 +27,13 @@
               return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
           }
       };
+      //if any mobile device is detected change to mobile.css
       if(isMobile.any()) {
         document.getElementById('style').setAttribute('href', '/css/mobile.css');
      }
      </script>
-     
+
+       <!-- add status bar color for various mobile devices -->
        <!-- Chrome, Firefox OS and Opera -->
        <meta name="theme-color" content="#4285f4">
        <!-- Windows Phone -->
@@ -58,21 +61,21 @@
 
             </div>
 
-        <div id="content">
+            <div id="content">
 
-            <table class="quicklinks">
-                <tr><th>Quick Links</th></tr>
-                <tr><td>Resume</td></tr>
-                <tr><td>Generic Cover Letter</td></tr>
-                <tr><td><a href="https://github.com/skylerreimer">GitHub</a></td></tr>
-                <tr><td><a href="https://www.linkedin.com/in/skyler-reimer-b506b2126">Linkedin</a></td></tr>
-            </table>
+              <table class="quicklinks">
+                  <tr><th>Quick Links</th></tr>
+                  <tr><td>Resume</td></tr>
+                  <tr><td>Generic Cover Letter</td></tr>
+                  <tr><td><a href="https://github.com/skylerreimer">GitHub</a></td></tr>
+                  <tr><td><a href="https://www.linkedin.com/in/skyler-reimer-b506b2126">Linkedin</a></td></tr>
+              </table>
 
             {{ content }}
 
-        </div>
+            </div>
 
-        <div id="footer">© 2016 Skyler Reimer CC-BY-NC-SA</div>
+            <div id="footer">© 2016 Skyler Reimer CC-BY-NC-SA</div>
     </div>
-</body>
+  </body>
 </html>
