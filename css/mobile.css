@@ -12,12 +12,12 @@ html, body {
 #content {
   padding-left: 5%; /*add white space around the content of pages */
   padding-right: 5%;
-  min-height: calc(100vh - 50px);
+
 }
 
 #footer {
   /*footer location styling*/
-  position: absolute;
+  position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
