@@ -1,7 +1,5 @@
-html{
+html, body {
   height:100%
-}
-body {
   margin: 0;
   position: relative;
   margin: 0;
@@ -9,26 +7,29 @@ body {
   min-height: 100%;
   font-family:"Courier New", Courier, monospace;
 }
-#wrapper{
 
-}
+/*style for content dividers */
 #content {
-  padding-left: 5%;
+  padding-left: 5%; /*add white space around the content of pages */
   padding-right: 5%;
 }
 
 #footer {
+  /*footer location styling*/
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
   padding: 1rem;
+
+  /*text styling in footer */
   background-color: DodgerBlue ;
   text-align: center;
   color: white;
 }
 
-ul.topnav {
+/*styling for navbar */
+#nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -37,11 +38,7 @@ ul.topnav {
     border-top: 1px solid white;
 }
 
-ul.topnav li {
-    float: none;
-}
-
-ul.topnav li a {
+#nav li a {
     display: block;
     color: white;
     text-align: center;
