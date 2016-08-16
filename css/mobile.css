@@ -9,28 +9,21 @@ html, body {
 }
 
 /*style for content dividers */
-#wrapper {
- min-height:100%;
- position:relative;
-}
-
 #content {
-  padding-bottom:50px; /* Height of the footer element */
   padding-left: 5%; /*add white space around the content of pages */
   padding-right: 5%;
 }
 
 #footer {
-  /*position styling for footer*/
-  width:100%;
-  height:50px;
-  position:absolute;
-  bottom:0;
-  left:0;
-  line-height: 50px; /* Height of the footer element */
+  /*footer location styling*/
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
 
   /*text styling in footer */
-  background:DodgerBlue;
+  background-color: DodgerBlue ;
   text-align: center;
   color: white;
 }
