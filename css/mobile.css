@@ -12,6 +12,7 @@ html, body {
 #content {
   padding-left: 5%; /*add white space around the content of pages */
   padding-right: 5%;
+  min-height: calc(100vh - 50px);
 }
 
 #footer {
@@ -21,7 +22,7 @@ html, body {
   bottom: 0;
   left: 0;
   padding: 1rem;
-
+  height: 50px;
   /*text styling in footer */
   background-color: DodgerBlue ;
   text-align: center;
