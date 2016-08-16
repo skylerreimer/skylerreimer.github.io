@@ -77,27 +77,36 @@ th {
    font-size: 1.2em;
 }
 
+/*styling for navbar */
 #nav {
 	width: 100%;
 	float: right;
 	margin: 0 0 1em 0;
 	padding: 0;
-	background-color: DeepSkyBlue ;
-	list-style-type: none;
+	background-color: DeepSkyBlue;
+	list-style-type: none; /*remove dots next to links */
 }
 
-
 #nav li {
-	float: right; }
+	float: right; /*puts navbar in straight line */
+}
+
+/*style the text in the navbar */
 #nav li a {
 	display: block;
 	padding: 8px 15px;
 	text-decoration: none;
 	font-weight: bold;
 	color: white;
-	border-right: 1px solid white }
+	border-right: 1px solid white;
+}
+
 #nav li:first-child a {
-	border-left: 1px solid white }
+	border-left: 1px solid white;
+}
+
+/*change background when hovered over */
 #nav li a:hover {
 	color: white;
-	background-color: CadetBlue  }
+	background-color: CadetBlue
+}
