@@ -38,6 +38,7 @@ html, body {
     border-top: 1px solid white;
 }
 
+/*style the text in the navbar */
 #nav li a {
     display: block;
     color: white;
@@ -47,7 +48,7 @@ html, body {
     border-top: 1px solid white;
 }
 
-
+/*styling of content on pages */
 h1, h2 {
     color: DarkOrange;
 }
@@ -61,6 +62,7 @@ h3 {
       margin: 0;
 }
 
+/* hide the quick links for mobile users */
 table, th, td {
     display: none;
 }
