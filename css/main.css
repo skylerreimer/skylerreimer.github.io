@@ -25,77 +25,53 @@
   position:absolute;
   bottom:0;
   left:0;
+  line-height: 50px; /* Height of the footer element */
+
   /*text styling in footer */
   background:DodgerBlue;
   text-align: center;
   color: white;
+ }
 
-  
-  line-height: 50px; /* Height of the footer element */
-  }
+/*styling of content on pages */
   p {
-
-        margin: auto;
-
-
-
-        border-bottom: 25px solid white;
-
-        font-size 1em;
-
+    margin: auto;
+    border-bottom: 25px solid white;
+    font-size 1em;
  }
 
  h1 {
-
- 	padding-top: 25px ;
-
- 	margin: auto;
-
-
-
- 	color: DarkOrange;
-
- 	font-size: 2.2em;
-
-
-
+   padding-top: 25px ;
+   margin: auto;
+   color: DarkOrange;
+   font-size: 2.2em;
  }
 
  h2 {
-
- 	padding-top: 25px ;
-
- 	margin: auto;
-
-
-
- 	color: DarkOrange;
-
- 	font-size: 1.5em;
-
-
-
- }
- h3{
-       font-size: 1.5em;
-      padding: 1em 8px;
-      color: white;
-      background-color: DodgerBlue ;
-      text-align: center;
-      margin: 0;
-
-
+   padding-top: 25px ;
+   margin: auto;
+   color: DarkOrange;
+   font-size: 1.5em;
  }
 
-
-.quicklinks{
-  position: absolute;
-  left: 80%;
-  top: 25%;
-  z-index: 2;
-
+ h3 {
+    font-size: 1.5em;
+    padding: 1em 8px;
+    color: white;
+    background-color: DodgerBlue ;
+    text-align: center;
+    margin: 0;
 }
-th{
+
+/*styling for quicklinks side table */
+.quicklinks {
+    position: absolute;
+    left: 80%;
+    top: 25%;
+    z-index: 2;
+}
+
+th {
    border-bottom: 1px solid black;
    font-weight: bold;
    font-size: 1.2em;
@@ -107,13 +83,12 @@ th{
 	margin: 0 0 1em 0;
 	padding: 0;
 	background-color: DeepSkyBlue ;
-	border-bottom: 1px solid #ccc;
 	list-style-type: none;
 }
 
 #nav ul {
-	list-style: none;
-	width: 800px;
+
+	
 	margin: 0 auto;
 	padding: 0;
 	list-style-type: none;
