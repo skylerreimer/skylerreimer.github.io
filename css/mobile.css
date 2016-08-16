@@ -9,6 +9,11 @@ html, body {
 }
 
 /*style for content dividers */
+#wrapper {
+ min-height:100%;
+ position:relative;
+}
+
 #content {
   padding-bottom:50px; /* Height of the footer element */
   padding-left: 5%; /*add white space around the content of pages */
