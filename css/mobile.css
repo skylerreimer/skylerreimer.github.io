@@ -68,3 +68,7 @@ h3 {
 table, th, td {
     display: none;
 }
+
+#hidden {
+  visibility: hidden;
+}

@@ -110,3 +110,7 @@ th {
 	color: white;
 	background-color: CadetBlue
 }
+
+#hidden {
+  visibility: hidden;
+}
