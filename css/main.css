@@ -28,7 +28,7 @@
   line-height: 40px; /* Height of the footer element */
 
   /*text styling in footer */
-  background:DodgerBlue;
+  background:#000000;
   text-align: center;
   color: white;
  }
@@ -58,7 +58,7 @@
     font-size: 1.5em;
     padding: 1em 8px;
     color: white;
-    background-color: DodgerBlue ;
+    background-color: #000000;
     text-align: center;
     margin: 0;
 }
@@ -83,7 +83,7 @@ th {
 	float: right;
 	margin: 0 0 1em 0;
 	padding: 0;
-	background-color: DeepSkyBlue;
+	background-color: #323232
 	list-style-type: none; /*remove dots next to links */
 }
 
