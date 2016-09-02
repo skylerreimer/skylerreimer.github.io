@@ -23,7 +23,7 @@ html, body {
   bottom: 0;
   left: 0;
   padding: 1rem;
-
+  visibility: hidden;
   /*text styling in footer */
   background-color: #000000;
   text-align: center;
