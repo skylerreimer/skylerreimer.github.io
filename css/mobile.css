@@ -6,7 +6,7 @@ html, body {
   margin: 0;
   padding-bottom: 6rem;
   min-height: 100%;
-  font-family:"Courier New", Courier, monospace;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*style for content dividers */
@@ -25,7 +25,7 @@ html, body {
   padding: 1rem;
 
   /*text styling in footer */
-  background-color: DodgerBlue ;
+  background-color: #000000;
   text-align: center;
   color: white;
 }
@@ -36,7 +36,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: DeepSkyBlue;
+    background-color: #323232;
     border-top: 1px solid white;
 }
 
@@ -52,14 +52,14 @@ html, body {
 
 /*styling of content on pages */
 h1, h2 {
-    color: DarkOrange;
+    color: #C80000;
 }
 
 h3 {
       font-size: 1.5em;
       padding: 1em 8px;
       color: white;
-      background-color: DodgerBlue ;
+      background-color:  #000000;
       text-align: center;
       margin: 0;
 }
