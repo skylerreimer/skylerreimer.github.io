@@ -106,7 +106,7 @@ th {
 }
 
 #nav li:last-child a {
-	border-left: none;
+	border-right: none;
 }
 
 /*change background when hovered over */
