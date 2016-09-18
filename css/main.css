@@ -101,10 +101,6 @@ th {
 	border-right: 1px solid white;
 }
 
-#nav li:first-child a {
-	border-left: 1px solid white;
-}
-
 /*change background when hovered over */
 #nav li a:hover {
 	color: white;
