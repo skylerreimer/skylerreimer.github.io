@@ -105,6 +105,10 @@ th {
 	border-left: 1px solid white;
 }
 
+#nav li:last-child a {
+	border-left: none;
+}
+
 /*change background when hovered over */
 #nav li a:hover {
 	color: white;
