@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+   <head>
+
+       <title>{{ page.title }}</title>
+       <link id="style" rel="stylesheet" type="text/css" href="/css/main.css">
+
+       <script src="javascript/ismobile.js"></script>
+
+       <!-- add status bar color for various mobile devices -->
+       <!-- Chrome, Firefox OS and Opera -->
+       <meta name="theme-color" content="#000000">
+       <!-- Windows Phone -->
+       <meta name="msapplication-navbutton-color" content="#000000">
+       <!-- iOS Safari -->
+       <meta name="apple-mobile-web-app-capable" content="yes">
+       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+   </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+
+                <h3>Homepage of Skyler Reimer</h3>
+                <ul id="nav">
+
+                    <li><a href="../index.html">About Skyler</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="Education.html">Education</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="experience.html">Work Experience</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+
+                </ul>
+
+            </div>
+
+            <div id="content">
+
+              <table class="quicklinks">
+                  <tr><th>Quick Links</th></tr>
+                  <tr><td><a href="html/construction.html">Resume</a></td></tr>
+                  <tr><td><a href="https://github.com/skylerreimer">GitHub</a></td></tr>
+                  <tr><td><a href="https://leetcode.com/skylerreimer/">LeetCode</a></td></tr>
+		  <tr><td><a href="https://www.linkedin.com/in/skyler-reimer-b506b2126">Linkedin</a></td></tr>
+              </table>
+
+            {{ content }}
+
+            </div>
+
+            <div id="footer">© 2016 Skyler Reimer CC-BY-NC-SA</div>
+    </div>
+  </body>
+</html>
