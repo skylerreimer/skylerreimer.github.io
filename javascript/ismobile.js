@@ -20,7 +20,7 @@
           }
       };
       //if any mobile device is detected change to mobile.css
-      if(isMobile.any()) {
+      if(!isMobile.any()) {
         document.getElementById('style').setAttribute('href', '/css/mobile.css');
      }
 
