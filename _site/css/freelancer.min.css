@@ -20,6 +20,12 @@ a:active,
 a.active {
   color: #18BC9C;
 }
+.link {
+  color : cyan;
+}
+.link:hover{
+  color : white;
+}
 h1,
 h2,
 h3,
@@ -70,10 +76,12 @@ header {
   text-align: center;
   background: #ffffff;
   color: black;
+  padding-bottom: 25%;
 }
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
+  min-height: 100%;
 }
 header img {
   display: block;
@@ -179,6 +187,7 @@ section {
 section h2 {
   margin: 0;
   font-size: 3em;
+  padding-bottom: 5%;
 }
 section.success {
   background: #18BC9C;
@@ -192,9 +201,12 @@ section.success {
     padding-top: 75px;
   }
 }
+
 #portfolio .portfolio-item {
   margin: 0 0 15px;
   right: 0;
+
+
 }
 #portfolio .portfolio-item .portfolio-link {
   display: block;
@@ -234,6 +246,7 @@ section.success {
 }
 #portfolio * {
   z-index: 2;
+
 }
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
